@@ -1,12 +1,14 @@
+
+
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "智慧物流平台，提升物流效率",
+  "text": "我们的平台运用智能算法优化物流路线，实现实时货物追踪，确保运输安全高效。通过大数据分析，我们帮助企业降低物流成本，提升服务质量。",
   "button": [
     {
-      "title": "Explore"
+      "title": "立即体验"
     },
     {
-      "title": "Learn more",
+      "title": "了解更多",
       "color": "#fff"
     }
   ]

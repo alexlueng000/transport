@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
+import { SvgIcon2 } from "../../../common/SvgIcon2";
 import { ContentBlockProps } from "../types";
 import { Fade } from "react-awesome-reveal";
 import {
@@ -11,6 +12,8 @@ import {
   MinTitle,
   MinPara,
 } from "./styles";
+
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 const LeftContentBlock = ({
   icon,
@@ -37,7 +40,16 @@ const LeftContentBlock = ({
                     section.map((item: any, id: number) => {
                       return (
                         <Col key={id} span={11}>
-                          <SvgIcon src={item.icon} width="60px" height="60px" />
+                          {/* <SvgIcon src={item.icon} width="60px" height="60px" /> */}
+                          {/* <SvgIcon2 src={item.icon} width="60px" height="60px" /> */}
+                          <Player
+                            autoplay
+                            loop
+                            src="https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json"
+                            style={{ height: '300px', width: '300px' }}
+                          >
+                            <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} />
+                          </Player>
                           <MinTitle>{t(item.title)}</MinTitle>
                           <MinPara>{t(item.content)}</MinPara>
                         </Col>

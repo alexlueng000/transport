@@ -1,6 +1,5 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
-  }
-  
+  "title": "快速高效地了解我们的智慧物流解决方案",
+  "text": "我们的智慧物流平台为您提供一站式的物流管理服务，从订单处理到货物追踪，再到库存管理和运输优化，我们涵盖了物流链的每一个环节，确保您的货物安全快速到达目的地。",
+  "button": "立即体验"
+}

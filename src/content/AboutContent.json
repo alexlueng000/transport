@@ -1,16 +1,22 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "轻量、快速且响应迅速",
+  "text": "我们的智慧物流平台经过精心设计，确保在各种设备上都能提供流畅和响应迅速的用户体验。",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "智能路线规划",
+      "content": "通过先进的算法，我们优化物流运输路线，缩短运输时间，减少运输成本。",
+      "icon": "motion.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "实时货物追踪",
+      "content": "提供实时货物位置信息，让你随时掌握货物动态，确保货物安全。",
+      "icon": "motion.svg"
     }
   ]
 }
+
+
+
+
+
+

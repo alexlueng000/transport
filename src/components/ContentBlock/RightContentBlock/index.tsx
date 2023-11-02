@@ -11,6 +11,8 @@ import {
   ButtonWrapper,
 } from "./styles";
 
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
+
 const RightBlock = ({
   title,
   content,
@@ -51,7 +53,15 @@ const RightBlock = ({
             </ContentWrapper>
           </Col>
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            {/* <SvgIcon src={icon} width="100%" height="100%" /> */}
+            <Player
+              autoplay
+              loop
+              src="https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json"
+              style={{ height: '300px', width: '300px' }}
+            >
+              <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} />
+            </Player>
           </Col>
         </Row>
       </Fade>
